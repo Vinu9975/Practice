@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>CSS Chapter 1</title>
+		<link type="text/css" href="CSS/DemoCSS.css" rel="stylesheet" />
+		
+		<style type="text/css">
+			#b1{background-color: black;}
+			div{height:200px;width:200px;background-color:white; border-radius: 101px; }
+
+			#divID{height:200px;width:200px;background-color:yellow;}
+			.divCLS{height:200px;width:200px;background-color:green; border-radius: 101px;}
+		</style>		
+		
+	</head>
+	<body id="b1">
+		<div style="height:200px;width:200px;background-color:red ;">Inline Style</div><hr/>
+
+		<div>Internal Style Sheet - Tag Name</div><hr/>
+
+		<div class="divCLS">Internal Style Sheet - Class Name</div><hr/>
+		
+		<div id="divID">Internal Style Sheet - ID</div><hr/>
+
+		<div id="divID" class="divCLS" >Inline Style</div><hr/>
+
+	</body>
+</html>
